@@ -1,0 +1,5 @@
+mongoimport --db=RapidHire --collection=applications --file=applications.json
+mongoimport --db=RapidHire --collection=posts --file=posts.json
+mongoimport --db=RapidHire --collection=file --file=files.json
+mongoimport --db=RapidHire --collection=users --file=users.json
+mongoimport --db=RapidHire --collection=feedbacks --file=feedbacks.json
