@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 
-import { createFeedback, getFeedback } from "./feedbackAPI";
+import { createFeedback, getFeedback } from "./feedbackAPI.js";
 
 const feedbacksSlice = createSlice({
   name: "feedbacks",

@@ -7,7 +7,7 @@ import {
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
 import { authContext } from '../../Auth/AuthProvider';
-import { isDemo } from '../../constants';
+import { isDemo } from '../../constants.js';
 
 
 const SocialLogIn = () => {

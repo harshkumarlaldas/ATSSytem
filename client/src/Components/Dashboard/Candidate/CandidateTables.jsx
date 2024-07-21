@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 import { AiFillDelete } from "react-icons/ai";
 import { HiChat, HiHand, HiInformationCircle, HiMail } from "react-icons/hi";
 import { getAllCandidates } from "../../../redux/candidates/candidatesOperation";
-import { authContext } from "../../../Auth/AuthProvider";
+import { authContext } from "../../../Auth/AuthProvider.jsx";
 import candidateImage from "./../../../assets/Image/user.png";
-import { RAPIDHIRE_ENDPOINT } from "../../../constants";
+import { RAPIDHIRE_ENDPOINT } from "../../../constants.js";
 
 const CandidateTables = ({ candidatesData }) => {
   const [candidates, setCandidates] = useState([]);

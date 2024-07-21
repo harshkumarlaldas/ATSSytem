@@ -4,7 +4,7 @@ import "./index.css";
 import { RouterProvider } from "react-router-dom";
 import router from "./Routes/Routes.jsx";
 
-import AuthProvider from "./Auth/AuthProvider";
+import AuthProvider from "./Auth/AuthProvider.jsx";
 import { Toaster } from "react-hot-toast";
 {
   /* <Provider store={store}> */

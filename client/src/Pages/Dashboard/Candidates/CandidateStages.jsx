@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import axios from "axios";
-import { RAPIDHIRE_ENDPOINT } from "../../../constants";
+import { RAPIDHIRE_ENDPOINT } from "../../../constants.js";
 
 function CandidateStages({ id }) {
   const [selectedItem, setSelectedItem] = useState("");

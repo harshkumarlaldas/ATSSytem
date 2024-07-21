@@ -19,7 +19,7 @@ import {
 } from "react-icons/bi";
 import { FaUserTie } from "react-icons/fa";
 import { useEffect, useState } from "react";
-import { RAPIDHIRE_ENDPOINT } from '../../../constants';
+import { RAPIDHIRE_ENDPOINT } from '../../../constants.js';
 import Loader from "../../../Components/Loader/Loader";
 import { PiGraduationCapBold } from "react-icons/pi";
 import CandidateStages from "./CandidateStages";

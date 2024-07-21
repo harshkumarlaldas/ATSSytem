@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import CandidateTables from "../../../Components/Dashboard/Candidate/CandidateTables";
 import ScanNewCandidate from "../../../Components/Dashboard/Candidate/ScanNewCandidate";
 import { getAllCandidates } from "../../../redux/candidates/candidatesOperation";
-import { authContext } from "../../../Auth/AuthProvider";
+import { authContext } from "../../../Auth/AuthProvider.jsx";
 import LoaderInternal from "../../../Components/LoaderInternal/LoaderInternal";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // Import arrow icons
 import { CreateCandidate } from "./CreateCandidate";

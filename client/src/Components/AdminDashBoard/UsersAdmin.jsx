@@ -3,7 +3,7 @@ import { FaShekelSign } from "react-icons/fa";
 import useAxiosSecure from "../../Hooks/AdminHook/useAxiosSecure";
 import { useQuery } from "@tanstack/react-query";
 import Swal from "sweetalert2";
-import { RAPIDHIRE_ENDPOINT } from "../../constants";
+import { RAPIDHIRE_ENDPOINT } from "../../constants.js";
 
 const UsersAdmin = () => {
   const [axiosSecure] = useAxiosSecure();

@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import icon from "../../assets/Register/Asset 1.svg";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { authContext } from "../../Auth/AuthProvider";
+import { authContext } from "../../Auth/AuthProvider.jsx";
 import { Controller, useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";

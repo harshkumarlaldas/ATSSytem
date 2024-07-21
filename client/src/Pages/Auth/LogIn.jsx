@@ -1,15 +1,15 @@
 import { useContext, useRef, useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { authContext } from "../../Auth/AuthProvider";
+import { authContext } from "../../Auth/AuthProvider.jsx";
 
 import SocialLogIn from "./SocialLogIn";
 import { toast } from "react-hot-toast";
-import { RAPIDHIRE_ENDPOINT } from '../../constants';
+import { RAPIDHIRE_ENDPOINT } from '../../constants.js';
 import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
 import "./LogIn.css";
 import axios from "axios";
-import { isDemo } from "../../constants";
+import { isDemo } from "../../constants.js";
 import useAxiosSecure from "../../Hooks/AdminHook/useAxiosSecure";
 const LogIn = () => {
   const [showPassword, setShowPassword] = useState(false);

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import Tips from "../../../../Components/Dashboard/PostJob/Tips";
-import { RAPIDHIRE_ENDPOINT } from "../../../../constants";
+import { RAPIDHIRE_ENDPOINT } from "../../../../constants.js";
 import { useForm } from "react-hook-form";
 import { FiAlertCircle } from "react-icons/fi";
 import Swal from "sweetalert2";

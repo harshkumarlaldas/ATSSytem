@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { FiSend } from "react-icons/fi";
 import { toast } from "react-hot-toast";
 import axios from "axios";
-import { RAPIDHIRE_ENDPOINT } from "../../../../constants";
+import { RAPIDHIRE_ENDPOINT } from "../../../../constants.js";
 
 const SendRejectionMail = ({ isOpen, onClose, onSubmit, value }) => {
   const candidateEmail = value;

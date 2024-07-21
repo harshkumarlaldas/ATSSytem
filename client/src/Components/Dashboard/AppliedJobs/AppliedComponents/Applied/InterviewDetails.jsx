@@ -11,7 +11,7 @@ import toast from "react-hot-toast";
 import LoaderInternal from "../../../../LoaderInternal/LoaderInternal";
 import NoContent from "../../NoContent";
 import { createSetStage } from "../../../../../redux/stage/api";
-import { RAPIDHIRE_ENDPOINT } from "../../../../../constants";
+import { RAPIDHIRE_ENDPOINT } from "../../../../../constants.js";
 import { useDispatch, useSelector } from "react-redux";
 
 const formatDate = (dateString) => {

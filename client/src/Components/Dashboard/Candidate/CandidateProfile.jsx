@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { RAPIDHIRE_ENDPOINT } from "../../../constants";
+import { RAPIDHIRE_ENDPOINT } from "../../../constants.js";
 
 const CandidateProfile = () => {
   const { id } = useParams();

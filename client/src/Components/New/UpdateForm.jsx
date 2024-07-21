@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { AiOutlineCloudUpload, AiFillCheckCircle } from "react-icons/ai";
 import { RiDeleteBin2Line } from "react-icons/ri";
-import { RAPIDHIRE_ENDPOINT } from "../../constants";
+import { RAPIDHIRE_ENDPOINT } from "../../constants.js";
 
 // for education and experience
 
@@ -302,7 +302,7 @@ import { RiImageAddLine } from "react-icons/ri";
 // import { updateData } from "../../api/auth";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllCandidates } from "../../redux/candidates/candidatesOperation";
-import { authContext } from "../../Auth/AuthProvider";
+import { authContext } from "../../Auth/AuthProvider.jsx";
 
 const UpdateForm = ({ jobTitle, jobPosterEmail, jobId }) => {
   console.log(jobId);

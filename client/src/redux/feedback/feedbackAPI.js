@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import toast from "react-hot-toast";
-import { RAPIDHIRE_ENDPOINT } from "../../constants";
+import { RAPIDHIRE_ENDPOINT } from "../../constants.js";
 
 export const createFeedback = createAsyncThunk(
   "createFeedback",

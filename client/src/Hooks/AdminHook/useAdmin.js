@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { useContext } from "react";
-import useAxiosSecure from "./useAxiosSecure";
-import { authContext } from "../../Auth/AuthProvider";
+import useAxiosSecure from "./useAxiosSecure.js";
+import { authContext } from "../../Auth/AuthProvider.jsx";
 
 
 
@@ -21,7 +21,7 @@ const useAdmin = () => {
 export default useAdmin;
 
 // import { useContext, useEffect, useState } from "react";
-// import { authContext } from "../../Auth/AuthProvider";
+// import { authContext } from "../../Auth/AuthProvider.jsx";
 
 // function useAdmin() {
 //   const [isAdmin, setIsAdmin] = useState(false);

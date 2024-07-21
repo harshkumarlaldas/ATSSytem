@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { FiSend } from "react-icons/fi";
 import { toast } from "react-hot-toast";
-import { RAPIDHIRE_ENDPOINT } from "../../../constants";
+import { RAPIDHIRE_ENDPOINT } from "../../../constants.js";
 
 const SendMessageModal = ({ isOpen, onClose, onSubmit, value }) => {
   const {

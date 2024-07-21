@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { RiCloseLine, RiShareForwardLine } from "react-icons/ri";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import { authContext } from "../../../Auth/AuthProvider";
+import { authContext } from "../../../Auth/AuthProvider.jsx";
 import "./CustomModal.css";
 
 const CustomModal = ({ data, showPop, setShowPop }) => {

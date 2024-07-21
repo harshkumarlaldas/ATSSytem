@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { FaStar } from "react-icons/fa";
 
-import { authContext } from "../../Auth/AuthProvider";
+import { authContext } from "../../Auth/AuthProvider.jsx";
 import { useDispatch } from "react-redux";
 import { createFeedback } from "../../redux/feedback/feedbackAPI";
 import { useNavigate } from "react-router-dom";

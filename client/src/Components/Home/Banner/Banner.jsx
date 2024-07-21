@@ -56,7 +56,7 @@ import { TypeAnimation } from "react-type-animation";
 import { Link } from 'react-router-dom';
 import { BsPlayCircleFill } from 'react-icons/bs';
 import { MdKeyboardArrowRight } from 'react-icons/md';
-import { isDemo } from "../../../constants";
+import { isDemo } from "../../../constants.js";
 
 const Banner = () => {
   return (

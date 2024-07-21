@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { FaTrash } from "react-icons/fa";
 import { HiMiniQuestionMarkCircle, HiUserCircle } from "react-icons/hi2";
-import { authContext } from "../../../../Auth/AuthProvider";
+import { authContext } from "../../../../Auth/AuthProvider.jsx";
 const Teammembers = () => {
   const { user } = useContext(authContext);
   const [jobs, setJobs] = useState([]);

@@ -7,7 +7,7 @@ import {
   HiMail,
   HiOutlineDotsHorizontal,
 } from "react-icons/hi";
-import { RAPIDHIRE_ENDPOINT } from "../../../../../constants";
+import { RAPIDHIRE_ENDPOINT } from "../../../../../constants.js";
 
 const AppliedCandidate = ({ candidates, stageName }) => {
   // console.log(candidates);

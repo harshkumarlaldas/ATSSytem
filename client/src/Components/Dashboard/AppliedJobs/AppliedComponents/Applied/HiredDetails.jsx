@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import { BiSolidHand } from "react-icons/bi";
 import { Link } from "react-router-dom";
-import { RAPIDHIRE_ENDPOINT } from '../../../../../constants';
+import { RAPIDHIRE_ENDPOINT } from '../../../../../constants.js';
 import LoaderInternal from "../../../../LoaderInternal/LoaderInternal";
 import NoContent from "../../NoContent";
 import SendRejectionMail from "../../Modals/SendRejectionMail";

@@ -2,7 +2,7 @@ import { RiImageAddLine } from "react-icons/ri";
 import React, { useContext } from "react";
 import { useForm, Controller } from "react-hook-form";
 import TimezoneSelect from "react-timezone-select";
-import { authContext } from "../../../Auth/AuthProvider";
+import { authContext } from "../../../Auth/AuthProvider.jsx";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
 

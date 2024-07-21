@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 
 import { useDispatch, useSelector } from "react-redux";
 import { getAllCandidates } from "../../../../redux/candidates/candidatesOperation";
-import { authContext } from "../../../../Auth/AuthProvider";
+import { authContext } from "../../../../Auth/AuthProvider.jsx";
 import HiredDetails from "./Applied/HiredDetails";
 
 const Applied = ({id}) => {

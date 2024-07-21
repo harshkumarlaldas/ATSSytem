@@ -4,7 +4,7 @@ import { createUser } from "../../redux/jobSlice";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import { useContext, useEffect, useState } from "react";
-import { authContext } from "../../Auth/AuthProvider";
+import { authContext } from "../../Auth/AuthProvider.jsx";
 import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
 import icon from "../../assets/Register/Asset 1.svg";
 import sign_up from "../../assets/Image/sign_up.png"

@@ -12,8 +12,8 @@ import {
   BsSearch,
 } from "react-icons/bs";
 import { useContext, useEffect, useState } from "react";
-import { authContext } from "../../../Auth/AuthProvider";
-import { RAPIDHIRE_ENDPOINT, isDemo } from "../../../constants";
+import { authContext } from "../../../Auth/AuthProvider.jsx";
+import { RAPIDHIRE_ENDPOINT, isDemo } from "../../../constants.js";
 import { toast } from "react-hot-toast";
 // import { GrLogout } from 'react-icons/gr'
 import { FcSettings } from "react-icons/fc";

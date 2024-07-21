@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
-import { authContext } from "../../Auth/AuthProvider";
+import { authContext } from "../../Auth/AuthProvider.jsx";
 import { Link, useLocation } from "react-router-dom";
-import { isDemo } from "../../constants";
+import { isDemo } from "../../constants.js";
 
 
 const Navbar = () => {

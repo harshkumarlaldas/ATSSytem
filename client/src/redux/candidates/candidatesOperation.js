@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-import { RAPIDHIRE_ENDPOINT } from "../../constants";
+import { RAPIDHIRE_ENDPOINT } from "../../constants.js";
 
 export const getAllCandidates = createAsyncThunk(
   "getAllCandidates",

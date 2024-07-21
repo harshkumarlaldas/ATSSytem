@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-import { createUser, getUsers,createJobPost, deleteAllJobs} from "./operations";
+import { createUser, getUsers,createJobPost, deleteAllJobs} from "./operations.js";
 
 const jobSlice = createSlice({
   name: "jobs",

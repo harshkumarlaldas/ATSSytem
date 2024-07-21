@@ -13,7 +13,7 @@ import {
 import { GoogleAuthProvider } from "firebase/auth";
 import { app } from "./firebase.config";
 import axios from "axios";
-import { RAPIDHIRE_ENDPOINT } from "../constants";
+import { RAPIDHIRE_ENDPOINT } from "../constants.js";
 
 export const authContext = createContext(null);
 const auth = getAuth(app);

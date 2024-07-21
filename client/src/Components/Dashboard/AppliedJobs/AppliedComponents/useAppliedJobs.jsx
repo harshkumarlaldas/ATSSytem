@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { RAPIDHIRE_ENDPOINT } from "../../../../constants";
+import { RAPIDHIRE_ENDPOINT } from "../../../../constants.js";
 
 const useAppliedJobs = () => {
   const [appliedJobs, setAppliedJobs] = useState([]);

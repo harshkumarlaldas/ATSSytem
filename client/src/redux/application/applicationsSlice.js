@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { createApplicationPost, getAllApplications } from "./api";
+import { createApplicationPost, getAllApplications } from "./api.js";
 
 
 

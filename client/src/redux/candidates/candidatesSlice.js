@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { getAllCandidates, getAllCandidatesById, createCandidate, evaluateReport } from "./candidatesOperation"; // Import the async thunk
+import { getAllCandidates, getAllCandidatesById, createCandidate, evaluateReport } from "./candidatesOperation.js"; // Import the async thunk
 
 const candidatesSlice = createSlice({
   name: "candidates",

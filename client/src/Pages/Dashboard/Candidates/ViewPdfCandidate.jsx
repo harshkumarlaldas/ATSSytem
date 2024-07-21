@@ -1,6 +1,6 @@
 import React from "react";
 import "tailwindcss/tailwind.css";
-import { RAPIDHIRE_ENDPOINT } from "../../../constants";
+import { RAPIDHIRE_ENDPOINT } from "../../../constants.js";
 
 function ViewPdfCandidate({ resume }) {
   const pdfURL = RAPIDHIRE_ENDPOINT + `/${resume}`;

@@ -5,7 +5,7 @@ import { RiCloseLine, RiShareForwardLine } from "react-icons/ri";
 import { BiMessage} from "react-icons/bi";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import { authContext } from "../../Auth/AuthProvider";
+import { authContext } from "../../Auth/AuthProvider.jsx";
 import UpdateForm from "../New/UpdateForm";
 import SocialLink from "./SocialLink";
 

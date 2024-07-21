@@ -12,7 +12,7 @@ import {
 } from "react-icons/bs";
 import { RxCross2 } from "react-icons/rx";
 import { Link } from "react-router-dom";
-import { RAPIDHIRE_ENDPOINT } from '../../../constants';
+import { RAPIDHIRE_ENDPOINT } from '../../../constants.js';
 import PinedSearch from "./PinedSearch";
 
 const PeopleSearch = () => {

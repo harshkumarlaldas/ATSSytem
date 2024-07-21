@@ -55,7 +55,7 @@ import Certification from "../Pages/Dashboard/Dashboard/Certification/Certificat
 import CertificationList from "../Pages/Dashboard/Dashboard/Certification/CertificationList";
 import Feedback from "../Components/Feedback/Feedback";
 import PinedSearch from "../Pages/Dashboard/PeopleSearch/PinedSearch";
-import { RAPIDHIRE_ENDPOINT } from '../constants';
+import { RAPIDHIRE_ENDPOINT } from '../constants.js';
 // import Company from "../Components/Company/Company";
 
 const router = createBrowserRouter([

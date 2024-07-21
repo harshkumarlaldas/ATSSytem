@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 import { createCandidate } from "../../../redux/candidates/candidatesSlice";
 import { toast } from "react-hot-toast";
 import { useDispatch } from "react-redux";
-import { authContext } from "../../../Auth/AuthProvider";
+import { authContext } from "../../../Auth/AuthProvider.jsx";
 
 export const CreateCandidate = ({ open, handleClose }) => {
   // const [data, setData] = useState();

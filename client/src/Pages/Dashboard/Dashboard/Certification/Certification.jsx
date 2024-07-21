@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Modal from "react-modal";
 import html2pdf from "html2pdf.js";
 import { useParams } from "react-router-dom";
-import { RAPIDHIRE_ENDPOINT } from "../../../../constants";
+import { RAPIDHIRE_ENDPOINT } from "../../../../constants.js";
 
 const Certification = () => {
   const { id } = useParams();

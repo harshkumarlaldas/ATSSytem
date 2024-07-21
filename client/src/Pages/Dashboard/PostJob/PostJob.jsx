@@ -20,7 +20,7 @@ import Tips from "../../../Components/Dashboard/PostJob/Tips";
 
 // import { getAllPost } from "../../../redux/postJob/api";
 import { useDispatch, useSelector } from "react-redux";
-import { authContext } from "../../../Auth/AuthProvider";
+import { authContext } from "../../../Auth/AuthProvider.jsx";
 // import CustomModal from "./CustomModal";
 
 export const PostJob = () => {

@@ -1,8 +1,8 @@
 import { useContext, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { authContext } from "../../Auth/AuthProvider";
-import { RAPIDHIRE_ENDPOINT } from "../../constants";
+import { authContext } from "../../Auth/AuthProvider.jsx";
+import { RAPIDHIRE_ENDPOINT } from "../../constants.js";
 // import { AuthContext } from "../providers/AuthProvider";
 
 const useAxiosSecure = () => {

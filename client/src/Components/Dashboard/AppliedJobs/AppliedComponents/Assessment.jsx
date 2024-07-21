@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 
 import SourcedDetails from "./Applied/SourcedDetails";
-import { authContext } from "../../../../Auth/AuthProvider";
+import { authContext } from "../../../../Auth/AuthProvider.jsx";
 import AssessmentDetails from "./Applied/AssessmentDetails";
 import { getAllCandidates } from "../../../../redux/candidates/candidatesOperation";
 

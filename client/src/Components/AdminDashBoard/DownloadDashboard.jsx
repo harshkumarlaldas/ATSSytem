@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { BsDownload } from "react-icons/bs";
-import { authContext } from "../../Auth/AuthProvider";
+import { authContext } from "../../Auth/AuthProvider.jsx";
 
 const DownloadDashboard = () => {
   const { user } = useContext(authContext);
