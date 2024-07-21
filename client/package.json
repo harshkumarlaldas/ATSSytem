@@ -1,11 +1,14 @@
 {
+  "homepage": "https://github.com/harshkumarlaldas/ATSSytem/tree/main/client",
   "name": "Rapid Hire Client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "vitest"
@@ -62,6 +65,7 @@
     "react-redux": "^8.1.2",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.15.0",
+    "react-scripts": "^5.0.1",
     "react-share": "^4.4.1",
     "react-slick": "^0.29.0",
     "react-spinners": "^0.13.8",
