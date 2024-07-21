@@ -139,7 +139,7 @@ const UpperBar = () => {
                 <div className="mx-auto text-center">
                   {/* <Logo /> */}
                   <img
-                    src="https://i.ibb.co/PTqRdqz/i-Pivot-Logo-Orange-Font-03.png"
+                    src="./hk.png"
                     alt=""
                     className="w-8 inline-block"
                   />

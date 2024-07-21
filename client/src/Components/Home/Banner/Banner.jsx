@@ -123,7 +123,7 @@ const Banner = () => {
         <div className="md:w-1/2 md:text-right">
           <img
             className="w-full  mx-auto  lg:md:h-[500px] lg:md:-mt-8 animate-pulse		"
-            src="https://i.ibb.co/t2t8JQ7/home-Banner.webp"
+            src="./emp.webp"
             alt="ATS App Screenshot"
           />
         </div>

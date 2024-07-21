@@ -179,8 +179,11 @@ const IDCheck = () => {
                   style={{ width: "100%", height: "700px" }}
                 />}
                 {!isReport &&
+                
                  <div className="flex items-center justify-center" style={{ width: "100%", height: "700px" }}>
+                   <img src="../../../../public/report.jpeg" className="mx-auto px-4 md:h-[500px]"/>
                      <p className="font-bold text-center mx-auto text-orange-500" >ID verfication report will be displayed here.</p> 
+                    
                  </div>
                 }
 

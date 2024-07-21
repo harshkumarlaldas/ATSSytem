@@ -80,7 +80,7 @@ const ProgramManager = () => {
         <div className="transition duration-1000 ease-in-out transform hover:scale-105 ps-4 h-[600px]">
           <img
             className="mx-auto px-4 md:h-[300px]"
-            src="https://i.ibb.co/6nGbtsF/program-Manager4.png"
+            src="https://i.ibb.co/6nGbtsF/program-Manager3.png"
             alt=""
           />
           <div className="text-center mt-12">

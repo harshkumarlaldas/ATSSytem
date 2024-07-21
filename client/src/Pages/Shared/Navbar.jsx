@@ -61,7 +61,7 @@ const Navbar = () => {
       <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
       <a href="https://www.rapidhire.ipivot.io/">
         <img
-          src="https://i.ibb.co/PTqRdqz/i-Pivot-Logo-Orange-Font-03.png"
+          src="./hk.png"
           className={`w-28 h-15 mr-2  p-2 rounded-full 
           ${scrolling ? "bg-white bg-opacity-80 lg:md:bg-opacity-0 " : "bg-white bg-opacity-80"}`}
           alt="Logo"

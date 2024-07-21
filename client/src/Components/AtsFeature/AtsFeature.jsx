@@ -80,35 +80,35 @@ import React from "react";
 function AtsFeature() {
   const features = [
     {
-      image: "https://i.ibb.co/txPdRDM/resumeparsing.png",
+      image: "./emp5.jpeg",
       title: "Resume Parsing",
       description:
         "Effortlessly extract and organize candidate information from resumes.",
     },
     {
-      image: "https://i.ibb.co/0jBSBKQ/jobposting.png",
+      image: "./emp6.jpeg",
       title: "Job Posting",
       description:
         "Easily create and publish job listings to attract top talent.",
     },
     {
-      image: "https://i.ibb.co/yfmYrnV/candidatemanagement.png",
+      image: "emp3.jpeg",
       title: "Candidate Management",
       description: "Track and manage candidates throughout the hiring process.",
     },
     {
-      image: "https://i.ibb.co/FBz9Bzz/juicy-workflow.png",
+      image: "emp4.jpeg",
       title: "Customizable Workflows",
       description:
         "Create tailored hiring workflows to fit your organization's needs.",
     },
     {
-      image: "https://i.ibb.co/HgrzQbY/customize-setting.png",
+      image: "emp1.jpeg",
       title: "Communication Tools",
       description: "Streamline communication with candidates and team members.",
     },
     {
-      image: "https://i.ibb.co/jWL5Gvn/Analytics-and-Reporting.png",
+      image: "emp2.png",
       title: "Analytics and Reporting",
       description:
         "Gain insights into your hiring process with advanced analytics.",
